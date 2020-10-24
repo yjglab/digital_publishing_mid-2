@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "variables.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7035189075630253) 45%,
+    rgba(0, 0, 0, 0.781) 55%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.moving-poster {
+  display: flex;
+  position: relative;
+  width: 1645px;
+  height: 925px;
+}
+.wrapper__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
